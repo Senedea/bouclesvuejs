@@ -123,6 +123,7 @@ nav {
   display: flex;
   width: 50%;
   justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 .nav-links a {
