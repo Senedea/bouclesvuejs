@@ -1,0 +1,49 @@
+<template>
+  <div id="homebouc">
+    <h2 id="welcome">
+      <p>Bienvenue sur les Saintes Boucles de 21JC</p>
+      <p>
+        Vous trouverez un recensement des différents sujets RP revenant en permanence lors
+        d'une discussion HRP
+      </p>
+      <p>
+        Cliquez sur le menu "Boucles ▼" pour acceder aux différentes pages !
+      </p>
+    </h2>
+    <!-- <Prediction/> -->
+  </div>
+</template>
+
+<script>
+// import Prediction from "./Prediction.vue"
+export default {
+  name: "Home",
+  // components: {
+  //   Prediction
+  // }
+};
+</script>
+
+<style>
+#homebouc #welcome {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  
+}
+
+#homebouc p{
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+html,
+body {
+  background-color: #050505;
+}
+</style>
