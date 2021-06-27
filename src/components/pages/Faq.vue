@@ -1,12 +1,11 @@
 <template>
   <div id="faqbouc">
     <div id="logo">
-      <a href="/"
-        ><img
-          id="bouclelogo"
-          src="../../../src/assets/logoboucle.png"
-          alt="Boucle"
-      /></a>
+      <img
+        id="bouclelogo"
+        src="../../../src/assets/logoboucle.png"
+        alt="Boucle"
+      />
     </div>
 
     <h1 id="gdoc">
@@ -84,9 +83,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+ 
 }
 #faqbouc h1#titreregle {
   padding-top: 30px;
@@ -96,12 +93,13 @@ export default {
 #faqbouc h1.titrefaq {
   font-size: 40px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
   text-decoration: underline;
 }
 
 #faqbouc #gdoc {
   text-align: center;
+  padding-top: 20px;
 }
 
 #faqbouc #bouclelogo {
@@ -111,8 +109,7 @@ export default {
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  min-width: 200px;
-  max-width: 200px;
+  max-width: 550px;
 }
 
 #faqbouc h1 {

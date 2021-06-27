@@ -122,21 +122,20 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+  
 }
 #blocprediction {
   width: 100%;
   min-width: 70px;
   max-width: 900px;
-  margin: 200px auto;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 #predict {
   font-size: 35px;
   text-align: center;
-  width: 900px;
+  width: 100%;
   height: 180px;
   background-color: rgb(39, 104, 104);
   padding-top: 50px;
@@ -154,5 +153,10 @@ export default {
   font-size: 25px;
   margin-top: 10px;
   background-color: rgb(216, 49, 8);
+}
+@media screen and (max-width: 800px) {
+  #predict {
+    font-size: 25px;
+  }
 }
 </style>

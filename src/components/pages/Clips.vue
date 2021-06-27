@@ -28,9 +28,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+
 }
 h1#gourou {
   text-align: center;
@@ -42,7 +40,7 @@ h1#gourou {
   max-width: 400px;
   width: 100vw;
   height: 100vh;
-  max-height: 400px;  
+  max-height: 400px;
   display: block;
   margin: 0 auto;
   padding-top: 10px;

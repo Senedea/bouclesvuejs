@@ -1,9 +1,7 @@
 <template>
   <div>
     <div id="logovert">
-      <a href="/"
-        ><img id="vert" src="../../../src/assets/Families_Logo.png" alt="Verts"
-      /></a>
+      <img id="vert" src="../../../src/assets/Families_Logo.png" alt="Verts" />
     </div>
     <div id="resumevert">
       <li>Champ de weed spotted ?</li>
@@ -22,9 +20,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+ 
 }
 #logovert {
   align-items: center;

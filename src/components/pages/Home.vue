@@ -3,12 +3,8 @@
     <h2 id="welcome">
       <p>Bienvenue sur les Saintes Boucles de 21JC</p>
       <p>
-        Vous trouverez un recensement des différents sujets RP revenant en permanence lors
-        d'une discussion HRP
-      </p>
-      <p>
-        Cliquez sur le menu "Boucles ▼" pour acceder aux différentes pages !
-      </p>
+        Vous trouverez un recensement des différents sujets RP qui, lors de discussions HRP, reviennent !
+      </p>     
     </h2>
     <!-- <Prediction/> -->
   </div>
@@ -29,21 +25,13 @@ export default {
   text-align: center;
   color: white;
   font-size: 22px;
-  
 }
 
-#homebouc p{
+#homebouc p {
   padding-top: 70px;
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
-html,
-body {
-  background-color: #050505;
+ 
 }
 </style>

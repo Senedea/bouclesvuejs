@@ -1,8 +1,7 @@
 <template>
   <div>
     <p class="bingop">
-      Cliquez sur les cases pour passer la case en vert si correct (reclique
-      pour enlever) !
+      Cliquez sur les cases si un event de ton bingo se passe !
     </p>
     <button id="bingobutton" @click="tablotemp = shuffle(tablo).slice(0, 16)">
       Nouvelle Grille
@@ -12,6 +11,8 @@
       <table>
         <tr :key="index1" v-for="(item1, index1) in 4">
           <td
+            class="noselect"
+            @click="toggleactive($event)"
             :key="index2"
             v-for="(item2, index2) in tablotemp.slice(
               index1 * 4,
@@ -123,7 +124,9 @@ export default {
     },
     shuffletemp: function() {
       this.tablotemp = this.shuffle(this.tablo);
-      console.log(this.tablotemp);
+    },
+    toggleactive: function(e) {
+      e.currentTarget.classList.toggle("active");
     },
   },
   mounted() {
@@ -171,8 +174,6 @@ export default {
     font-weight: bold;
     text-align: center;
   }
-    body {
-    overflow-x: hidden;
-  }
+
 }
 </style>

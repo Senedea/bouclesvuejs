@@ -1,9 +1,7 @@
 <template>
   <div>
     <div id="logoserv">
-      <a href="/"
-        ><img class="servlogo" src="../../../src/assets/logo21.png" alt="Serv"
-      /></a>
+      <img class="servlogo" src="../../../src/assets/logo21.png" alt="Serv" />
     </div>
     <div id="resumeserver">
       <li>Top-Achat & Instagram</li>
@@ -29,9 +27,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+ 
 }
 #resumeserver {
   text-align: center;
@@ -43,13 +39,12 @@ export default {
 }
 
 #logoserv {
-  align-items: center;
-  max-width: 660px;
+  text-align: center;
+
   margin: auto;
 }
 
 .servlogo {
-  max-width: 500px;
-  margin: 0 auto 0 95px;
+  padding: 5px;
 }
 </style>

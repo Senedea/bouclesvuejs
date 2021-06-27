@@ -1,9 +1,7 @@
 <template>
   <div>
     <div id="logovagos">
-      <a href="/"
-        ><img id="vagos" src="../../../src/assets/vag.png" alt="Vagos"
-      /></a>
+      <img id="vagos" src="../../../src/assets/vag.png" alt="Vagos" />
     </div>
 
     <div id="resumevagos">
@@ -24,9 +22,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+  
 }
 #logovagos {
   align-items: center;

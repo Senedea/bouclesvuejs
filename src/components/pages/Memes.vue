@@ -29,9 +29,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+
 }
 #imgurembed {
   padding-top: 50px;

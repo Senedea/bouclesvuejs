@@ -1,9 +1,7 @@
 <template>
   <div>
     <div id="logopolice">
-      <a href="/"
-        ><img id="logolspd" src="../../../src/assets/logo_lspd.png" alt="Mano"
-      /></a>
+      <img id="logolspd" src="../../../src/assets/logo_lspd.png" alt="Mano" />
     </div>
     <div id="resumepolice">
       <li>L'hélico est-il win RP ?</li>
@@ -23,9 +21,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
+ 
 }
 #logopolice {
   align-items: center;

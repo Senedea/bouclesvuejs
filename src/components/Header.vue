@@ -56,6 +56,7 @@
         </div>
       </nav>
     </header>
+    <div id="fixednav"></div>
   </div>
 </template>
 
@@ -88,22 +89,25 @@ export default {
         }
       });
     },
+    '$route'(){
+        this.toggleburger()
+    }
   },
 };
 </script>
 
 <style>
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+header{
+    
+    position: fixed;
+    
 }
-
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
+  min-width: 100vw;
   background-color: #1e1e1e;
   font-family: "Poppins", sans-serif;
 }
@@ -142,10 +146,8 @@ nav {
 }
 
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
-  .nav-links {      
+ 
+  .nav-links {
     position: absolute;
     right: 0;
     height: 92vh;
@@ -159,10 +161,9 @@ nav {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    
   }
-  .displaynone{
-      display: none;
+  .displaynone {
+    display: none;
   }
   .nav-links > div {
     opacity: 0;

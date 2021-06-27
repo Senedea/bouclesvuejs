@@ -1,12 +1,11 @@
 <template>
   <div>
     <div id="manologo">
-      <a href="/"
-        ><img
-          class="logomano"
-          src="../../../src/assets/logomano.jpeg"
-          alt="Mano"
-      /></a>
+      <img
+        class="logomano"
+        src="../../../src/assets/logomano.jpeg"
+        alt="Mano"
+      />
     </div>
     <div id="resumemano">
       <li>Pablo met des coups de pression</li>
@@ -45,12 +44,7 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  body {
-    overflow-x: hidden;
-  }
-  .logomano{
-    max-width: 200px;
-  }
+
 }
 .textebarre {
   text-decoration: line-through;
@@ -66,13 +60,10 @@ export default {
 }
 
 #manologo {
-  align-items: center;
-  max-width: 660px;
-  /* margin: auto; */
+  text-align: center;
 }
-
- .logomano {
-  max-width: 250px;
-  margin: 0 auto 0 95px;
+.logomano {
+  width: 100%;
+  max-width: 550px;
 }
 </style>
