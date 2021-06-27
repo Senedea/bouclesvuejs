@@ -140,6 +140,7 @@ export default {
   background-color: rgb(39, 104, 104);
   padding-top: 50px;
   border: 5px solid red;
+  font-weight: bold;
 }
 
 #blocbouton {

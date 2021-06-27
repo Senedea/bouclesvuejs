@@ -22,7 +22,7 @@
     </h1>
     <div class="faqboucle">
       <h1 class="titrefaq">Qu'est ce que la boucle</h1>
-      <p>
+      <div class="pregle"><p>
         La boucle réprésente tous les sujets en rapport avec le RP,
         principalement liés a tous les acteurs tournant autour du groupe "La
         Mano"
@@ -47,10 +47,10 @@
       <p>On nous prend pour une secte d'extrémistes, mais nous sommes gentil</p>
       <p style="color: #E4FC00">
         Tout le monde est le bienvenu au sein de la Boucle
-      </p>
+      </p></div>
 
       <h1 id="titreregle" class="titrefaq">Les règles de la Boucle</h1>
-      <p>Répondre à l'appel de la Boucle si un camarade à besoin d'aide</p>
+      <div class="pregle"><p>Répondre à l'appel de la Boucle si un camarade à besoin d'aide</p>
       <p>Mettre un émoji Boucle si un sujet de la boucle est lancé</p>
       <p>
         Tous les soirs applaudir à 20h en vocal ou par message sur le chan
@@ -70,7 +70,7 @@
       <p>
         ☠ Si vous voulez quitter la Boucle, ce sera les pieds en avant dans un
         tobbogan ☠
-      </p>
+      </p></div>
     </div>
   </div>
 </template>
@@ -114,8 +114,18 @@ export default {
 
 #faqbouc h1 {
   color: white;
+  margin-bottom: 15px;
 }
 #faqbouc p {
   color: white;
+  font-size: 22px;
+  margin-bottom: 25px;
+  
+}
+
+#faqbouc .pregle{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 5px;
 }
 </style>

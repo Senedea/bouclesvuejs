@@ -1,7 +1,7 @@
 <template>
   <div>
     <footer>
-      Created by Kaizoku
+      Created by Kaizoku#5798 Copyright ©
     </footer>
   </div>
 </template>

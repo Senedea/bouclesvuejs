@@ -3,7 +3,7 @@
     <p class="bingop">
       Cliquez sur les cases si un event de ton bingo se passe !
     </p>
-    <button id="bingobutton" @click="tablotemp = shuffle(tablo).slice(0, 16)">
+    <button id="bingobutton" @click="shuffletemp">
       Nouvelle Grille
     </button>
 
@@ -123,7 +123,14 @@ export default {
       return a;
     },
     shuffletemp: function() {
-      this.tablotemp = this.shuffle(this.tablo);
+      // document.querySelectorAll("td").classList.remove("active")
+      this.$el.querySelectorAll("td").forEach(function(e){
+        e.classList.remove("active")
+      })
+      
+      
+      
+      this.tablotemp = this.shuffle(this.tablo).slice(0, 16);
     },
     toggleactive: function(e) {
       e.currentTarget.classList.toggle("active");

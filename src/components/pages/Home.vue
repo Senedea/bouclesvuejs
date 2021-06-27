@@ -3,7 +3,7 @@
     <h2 id="welcome">
       <p>Bienvenue sur les Saintes Boucles de 21JC</p>
       <p>
-        Vous trouverez un recensement des différents sujets RP qui, lors de discussions HRP, reviennent !
+        Vous trouverez un recensement des différents sujets RP qui, lors de discussions HRP, reviennent en boucle !
       </p>     
     </h2>
     <!-- <Prediction/> -->
