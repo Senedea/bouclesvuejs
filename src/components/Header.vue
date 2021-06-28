@@ -43,7 +43,7 @@
             </div>
           </div>
           <div>
-            <router-link :to="{ name: 'faq' }">FAQ de la boucle</router-link>
+            <router-link :to="{ name: 'faq' }">FAQ </router-link>
           </div>
           <div><router-link :to="{ name: 'clips' }">Clips</router-link></div>
           <div><router-link :to="{ name: 'memes' }">Memes</router-link></div>
