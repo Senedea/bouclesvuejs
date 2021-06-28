@@ -5,11 +5,12 @@
     </div>
 
     <div id="resumevagos">
-      <li>Qu'est ce qui est jaune et qui attend ?</li>
+      <li>Smoke partie en fumée / Smoke a pris l'eau</li>
       <li>Les vagos ne bossent pas</li>
-      <li class="textebarre">La G36 va-t-elle être sorti ?</li>
       <li>Vagos torse nu</li>
-      <li>Lakra roule sur tout avec son 6x6</li>
+      <li>Un 6x6 ? C'est Lakra</li>
+      <li>Sortie de la G36</li>
+      <li>Les vagos sont combien ?</li>
     </div>
   </div>
 </template>
@@ -22,7 +23,6 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-  
 }
 #logovagos {
   align-items: center;

@@ -11,10 +11,12 @@
       <li>Coma cause oubli manger/boire</li>
       <li>C'est oune bonne sitouation *insert métier* ?</li>
       <li>C'est ça le serious RP</li>
-      <li>Balass en mode DD</li>
+      <li>Largo tacle le BCSO</li>
       <li>Les modos du discord parlent d'une certaine "mouette-taupe"</li>
       <li>"Le" ou "La" LSPD ?</li>
       <li>Des 9 3/4</li>
+      <li>Le Benny's oublie une custom</li>
+      <li>Manque de Fear/Pain RP</li>
     </div>
   </div>
 </template>
@@ -27,7 +29,6 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
- 
 }
 #resumeserver {
   text-align: center;
@@ -40,7 +41,6 @@ export default {
 
 #logoserv {
   text-align: center;
-
   margin: auto;
 }
 

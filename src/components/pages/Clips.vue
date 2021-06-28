@@ -28,7 +28,6 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-
 }
 h1#gourou {
   text-align: center;

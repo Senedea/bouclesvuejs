@@ -8,6 +8,7 @@
       <li>Pourquoi un hélico attendait au sol à la mine ?</li>
       <li>Mass RP concernant le van "Smoke on the water" des verts</li>
       <li>Le FC Boucle devient le FC Diouf le week-end</li>
+      <li>Braquage de G6</li>
     </div>
   </div>
 </template>
@@ -20,7 +21,6 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
- 
 }
 #logovert {
   align-items: center;

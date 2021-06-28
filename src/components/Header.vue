@@ -89,18 +89,16 @@ export default {
         }
       });
     },
-    '$route'(){
-        this.toggleburger()
-    }
+    $route() {
+      this.toggleburger();
+    },
   },
 };
 </script>
 
 <style>
-header{
-    
-    position: fixed;
-    
+header {
+  position: fixed;
 }
 nav {
   display: flex;
@@ -124,6 +122,7 @@ nav {
   width: 50%;
   justify-content: space-around;
   padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 .nav-links a {
@@ -147,7 +146,6 @@ nav {
 }
 
 @media screen and (max-width: 1320px) {
- 
   .nav-links {
     position: absolute;
     right: 0;

@@ -29,7 +29,6 @@ export default {
 
 <style>
 @media screen and (max-width: 1320px) {
-
 }
 #imgurembed {
   padding-top: 50px;
