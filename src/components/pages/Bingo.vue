@@ -146,6 +146,9 @@ export default {
         "Miguel interprète les choses",
         "LSPD dans le quartier KKangpae",
         // fin update 28/06/21
+        "'Vous faire considérer en tant que tel'",
+        "'On en a gros'",
+        // fin update 01/07/21
       ],
     };
   },
