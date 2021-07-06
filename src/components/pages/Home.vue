@@ -6,6 +6,11 @@
         Vous trouverez un recensement des différents sujets RP qui, lors de
         discussions HRP, reviennent en boucle !
       </p>
+
+      <img
+        id="onzedeboucle"
+        src="../../../src/assets/les_11_de_la_boucle.png"
+      />
     </h2>
     <!-- <Prediction/> -->
   </div>
@@ -22,6 +27,10 @@ export default {
 </script>
 
 <style>
+#onzedeboucle {
+  padding-top: 20px;
+}
+
 #homebouc #welcome {
   text-align: center;
   color: white;
