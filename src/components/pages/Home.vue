@@ -29,6 +29,7 @@ export default {
 <style>
 #onzedeboucle {
   padding-top: 20px;
+  max-width: 1200px;
 }
 
 #homebouc #welcome {
