@@ -7,10 +7,7 @@
         alt="Boucle"
       />
     </div>
-   <img
-        id="onzedeboucle"
-        src="../../../src/assets/les_11_de_la_boucle_V2.png"
-      />
+
     <h1 id="gdoc">
       <a
         href="https://docs.google.com/spreadsheets/d/18yQvnIIEZ4QPKGWWE3ozhg-seh9zppmfIbVvMh7WlZc/"
@@ -91,14 +88,6 @@ export default {
 </script>
 
 <style>
-#onzedeboucle {
-  padding-top: 20px;
-  max-width: 1300px;
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  
-}
 @media screen and (max-width: 1320px) {
 }
 #faqbouc h1#titreregle {
@@ -144,8 +133,8 @@ export default {
   padding: 5px;
 }
 
-#faqbouc a { text-decoration: none; color:green;}
-
-
-
+#faqbouc a {
+  text-decoration: none;
+  color: green;
+}
 </style>

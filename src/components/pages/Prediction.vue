@@ -25,7 +25,7 @@ export default {
       predictions: [
         "La Mano aura le biz d'armes",
         "Ice-T oublie une info importante",
-        "Ice-T numéro 3?",        
+        "Ice-T numéro 3?",
         "Champ spotted?",
         "Mike n°2 intérimaire?",
         "Lenny 'AH!'",

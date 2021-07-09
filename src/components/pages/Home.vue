@@ -7,7 +7,24 @@
         discussions HRP, reviennent en boucle !
       </p>
 
-   
+      <div id="onzeboucle">
+        <img
+          class="onzedeboucle"
+          src="../../../src/assets/les_11_de_la_boucle_crimi.png"
+        />
+        <img
+          class="onzedeboucle"
+          src="../../../src/assets/les_11_de_la_boucle_civil.png"
+        />
+        <img
+          class="onzedeboucle"
+          src="../../../src/assets/les_11_de_la_boucle_police.png"
+        />
+        <img
+          class="onzedeboucle"
+          src="../../../src/assets/les_11_de_la_boucle_boucle.png"
+        />
+      </div>
     </h2>
     <!-- <Prediction/> -->
   </div>
@@ -24,8 +41,6 @@ export default {
 </script>
 
 <style>
-
-
 #homebouc #welcome {
   text-align: center;
   color: white;
@@ -36,6 +51,15 @@ export default {
   padding-top: 70px;
 }
 
+.onzedeboucle {
+  padding-top: 20px;
+  margin: 0 5px;
+  max-width: 400px;
+}
+
+#onzeboucle {
+  width: 100%;
+}
 
 @media screen and (max-width: 800px) {
 }
