@@ -73,11 +73,7 @@ const router = new  Router({
             name: 'chronique',
             component: Chronique
         },
-        {
-            path: '/*',
-            component: 404
-            },
-            
+        
           {
               path:  '/',
               alias: '/home',
