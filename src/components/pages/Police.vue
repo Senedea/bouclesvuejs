@@ -6,8 +6,8 @@
     <div id="resumepolice">
       <li>L'hélico est-il win RP ?</li>
       <li>Fear/Mass RP ?</li>
-      <li>Prigent en burnout</li>
-      <li>la Mano avec un PPA = soulou merde</li>
+      <li class="textebarre">Prigent en burnout</li>
+      <li class="textebarre">la Mano avec un PPA = soulou merde</li>
       <li class="textebarre">Le procureur est rambo en hélico</li>
     </div>
   </div>

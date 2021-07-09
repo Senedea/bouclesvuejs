@@ -11,6 +11,7 @@ import Memes from '../components/pages/Memes.vue'
 import Police from '../components/pages/Police.vue'
 import Prediction from '../components/pages/Prediction.vue'
 import Home from '../components/pages/Home.vue'
+import Chronique from '../components/pages/Chronique.vue'
 
 Vue.use(Router)
 const router = new  Router({
@@ -66,6 +67,11 @@ const router = new  Router({
             path: '/prediction',
             name: 'prediction',
             component: Prediction
+        },
+        {
+            path: '/chroniques',
+            name: 'chronique',
+            component: Chronique
         },
           {
               path:  '/',

@@ -11,13 +11,13 @@
     <h1 id="gdoc">
       <a
         href="https://docs.google.com/spreadsheets/d/18yQvnIIEZ4QPKGWWE3ozhg-seh9zppmfIbVvMh7WlZc/"
-        >Gdoc La Boucle</a
+        >&#x2192; Gdoc La Boucle &#x2190;</a
       >
     </h1>
     <h1 id="gdoc">
       <a
         href="https://docs.google.com/spreadsheets/d/1yS_ZZPbNGcfcpUGsAl06HyNJHffN-xNAVyYx1EN4OlU"
-        >Gdoc Bingo Boucle</a
+        >&#x2192; Gdoc Bingo Boucle &#x2190;</a
       >
     </h1>
     <div class="faqboucle">
@@ -132,4 +132,7 @@ export default {
   max-width: 800px;
   padding: 5px;
 }
+
+#faqbouc a { text-decoration: none; color:green;}
+
 </style>

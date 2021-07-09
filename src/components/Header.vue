@@ -48,6 +48,7 @@
           <div><router-link :to="{ name: 'clips' }">Clips</router-link></div>
           <div><router-link :to="{ name: 'memes' }">Memes</router-link></div>
           <div><router-link :to="{ name: 'bingo' }">BINGO</router-link></div>
+          <div><router-link :to="{ name: 'chronique' }">Chroniques</router-link></div>
         </div>
         <div :class="['burger', burger ? 'toggle' : '']" @click="toggleburger">
           <div class="line1"></div>
@@ -123,6 +124,7 @@ nav {
   justify-content: space-around;
   padding-bottom: 50px;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 
 .nav-links a {
@@ -178,6 +180,7 @@ nav {
     position: relative !important;
     flex-direction: column !important;
     background-color: transparent !important;
+    line-height: 30px;
   }
 }
 

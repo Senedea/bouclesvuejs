@@ -24,13 +24,13 @@
       <li>Pablo "Les mots ont leur importance"</li>
       <li>Tortue en allant au champ ?</li>
       <li>Oublie de s'enregistrer sur la pointeuse de la compta</li>
-      <li>🐻 Ice-T et les pansements nounours 🐻</li>
-      <li>Larry fait de la merde</li>
       <li>Gros silence</li>
       <li>Pas d'intéraction = C pa RP</li>
       <li>Pablo ennemi public n°1</li>
       <li>Pablo parle de manger quelqu'un</li>
       <li>Pablo met la musique d'ascenseur pendant une scène de discussion</li>
+      <li class="textebarre">Larry fait de la merde</li>
+      <li class="textebarre">🐻 Ice-T et les pansements nounours 🐻</li>
       <li class="textebarre">Lenny & Tim, les nouveaux Tic & Tac ?</li>
       <li class="textebarre">Mike pleurniche</li>
       <li class="textebarre">Lenny parle à Charlie dans sa tête</li>
