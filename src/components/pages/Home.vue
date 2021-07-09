@@ -7,10 +7,7 @@
         discussions HRP, reviennent en boucle !
       </p>
 
-      <img
-        id="onzedeboucle"
-        src="../../../src/assets/les_11_de_la_boucle_V2.png"
-      />
+   
     </h2>
     <!-- <Prediction/> -->
   </div>
@@ -27,10 +24,7 @@ export default {
 </script>
 
 <style>
-#onzedeboucle {
-  padding-top: 20px;
-  max-width: 1400px;
-}
+
 
 #homebouc #welcome {
   text-align: center;
@@ -42,10 +36,6 @@ export default {
   padding-top: 70px;
 }
 
-.marieresume {
-  width: 500px;
-  height: 500px;
-}
 
 @media screen and (max-width: 800px) {
 }

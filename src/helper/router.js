@@ -73,16 +73,23 @@ const router = new  Router({
             name: 'chronique',
             component: Chronique
         },
+        {
+            path: '/*',
+            component: 404
+            },
+            
           {
               path:  '/',
               alias: '/home',
               name:  'home',
               component:  Home
           },
+          
           {
               path: '/*',
               redirect: { name: 'home' }
           }
+          
     ]
 })
 export  default  router;
